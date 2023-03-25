@@ -1,0 +1,304 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./Image/gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+#menu {
+    display: none;
+}
+
+#Headersection #Left h1{
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+#Headersection div ul li button{
+    background-color: transparent;
+    width: 77px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+}
+
+#Headersection {
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#Headersection #Left h1 span{
+    font-weight: 100;
+}
+#Headersection div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+}
+
+#Bodysection{
+    text-align: center;
+    color: white;
+}
+#Bodysection h1{
+    font-size: 40px;
+    margin-top: 83px;
+}
+#Bodysection p{
+    font-size: 20px;
+    color: 8cb1d0;
+}
+#Bodysection button {
+    width: 175px;
+    height:45px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #b0a59e;
+    border: none;
+    margin-right: 10px;
+    margin-top: 15px;
+} 
+#Bodysection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #9aa5ac;
+}
+
+#Discriptivesection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+    padding-top: 50px;
+    margin-top: 150px;
+    color: #787878;
+}
+#Discriptivesection h1{
+    font-size: 30px;
+}
+
+#Discriptivesection p{
+    font-size: 15px;
+    border-top: 1px solid #787878;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+
+}
+#Discriptivesection img{
+    padding-top: 40px;
+    width: 100%;
+}
+#Iconsection{
+    width: 70%;
+    margin: auto;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #949594;
+
+ }
+ #Iconsection div{
+  display: inline-block;
+  text-align: center;
+  width: 46%;
+  margin-top: 50px;
+  margin-left: 36px;
+ 
+ }
+ .fa.fa-bolt{
+    font-size: 30px;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 26px 33px;
+ }
+ .fa.fa-area-chart{
+    font-size: 30px;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 26px 24px;
+ }
+ .fa.fa-cloud{
+    font-size: 30px;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 26px 24px;
+ }
+.fa.fa-lock{
+    font-size: 30px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 26px 33px;
+}
+#div1 {
+    border-right:0.5px solid #d5d0cf;
+    border-bottom:0.5px solid #d5d0cf ;
+    position: relative;
+    left: 14px;
+}
+#div4 {
+    border-top:0.5px solid #d5d0cf;
+    border-left:0.5px solid #d5d0cf;
+    position: relative;
+    top: -51px;
+    left: -25px;
+padding-top: 24px;
+}
+#div3 {
+    position: relative;
+    top: -52px;
+    left: 8px;
+}
+#Imagesection{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#Imagesection div{
+    width: 48%;
+    display: inline-block;
+    background-color: white;
+    color: #949594;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#Imagesection div img{
+    width: 100%;
+}
+#Imagesection div h1{
+    font-size: 29px;
+}
+#Imagesection div button{
+    border-radius: 5px;
+    width: 135px;
+    height: 45px;
+    background-color: white;
+    color: #949594;
+    border: 1px solid #e8e8e8;
+    margin-top: 20px;
+
+}
+#Imagesection #div6{
+    margin-left: 33px;
+}
+#Signupsection {
+    width: 102%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color:#e89980;
+    padding-bottom: 58px;
+
+}
+#Signupsection h1{
+    font-size: 31px;
+    margin-bottom: 20px;
+    padding-top: 42px;
+    color: #f8e3db;
+}
+
+#Signupsection p {
+    font-size: 15px;
+    color: #f8e3db;
+    
+}
+#Signupsection input {
+    background-color: #eba893;
+    width: 225px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#Signupsection button{
+    width: 96px;
+    height: 42px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color:#eba893;
+}
+#FooterSection #div7{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    color: #c6c6c6;
+    letter-spacing: 9px;
+}
+#FooterSection #div8 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+#FooterSection #div8 p #a{
+    border-right:0.5px solid #c6c6c6 ;
+    padding-left: 20px;
+}
+
+ 
+@media (max-width:600px){
+    #Headersection{
+        display: none;
+    }
+    #menu{
+        display: inline;
+        color: white;
+        padding: 3px 10px;
+        background-color: grey;
+    }
+    body{
+        background-size: 170%;
+        background-position-x: center;
+    }
+    #Bodysection{
+       margin-top: -36px;
+    }
+    #Bodysection h1{
+        font-size: 36px;
+
+    }
+    #Bodysection p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #Bodysection button {
+        width: 350px;
+        height:45px;
+        margin-top: 10px;
+    } 
+    #Discriptivesection{
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 25px;
+    }
+    #Discriptivesection h1{
+        font-size: 25px;
+        padding-left: 0px;
+    }
+    
+    #Discriptivesection p{
+        font-size: 20px;
+        border-top: 1px solid #787878;
+        width: 100%;
+    }
+    #Discriptivesection {
+       width: 100%;
+       padding-top: 40px;
+       border-radius: 0px;
+    }
+   #Discriptivesection br {
+    display: none;
+   }
+ }
+  
+ 

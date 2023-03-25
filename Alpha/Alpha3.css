@@ -1,0 +1,11 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./Image/Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Headersection #Left h1{
+    font-size: 16px;
+    margin-left: 20px;
+}

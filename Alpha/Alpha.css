@@ -1,0 +1,34 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./Image/Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Headersection div{
+   display: inline-block;
+}
+#Headersection div ul li{
+    display: inline-block;
+}
+#Headersection #Left{
+    width: 77%;
+}
+#Headersection #Left h1{
+    font-size: 16px;
+}
+#Headersection div ul li button{
+    background-color: transparent;
+    width: 77px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+}
+#Headersection div ul li{
+    padding-left: 37px;
+}
+#Headersection {
+    color: white;
+}
+#Headersection #Left h1 span{
+    font-weight: 100;
+}
